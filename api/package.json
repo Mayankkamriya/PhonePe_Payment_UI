@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
   },
   "keywords": [],
   "author": "",
@@ -15,5 +18,8 @@
     "crypto": "^1.0.1",
     "express": "^4.19.2",
     "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "vite": "^5.4.7"
   }
 }
